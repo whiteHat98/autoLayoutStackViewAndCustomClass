@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fIV-dJ-C3C">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="autoLayout" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s6o-Ui-h6U" customClass="CustomButton" customModule="autoLayout" customModuleProvider="target">
+                                <rect key="frame" x="184" y="433" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="43" translatesAutoresizingMaskIntoConstraints="NO" id="Pbr-aI-frg">
+                                <rect key="frame" x="87" y="90" width="224" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Nc-z5-3Qi">
+                                        <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VcO-8j-YYV">
+                                        <rect key="frame" x="89" y="0.0" width="46" height="30"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Btt-zk-4Hb">
+                                        <rect key="frame" x="178" y="0.0" width="46" height="30"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fAf-Ph-yDd" customClass="CustomView" customModule="autoLayout" customModuleProvider="target">
+                                <rect key="frame" x="87" y="384" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="fAf-Ph-yDd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1jM-jY-S9w"/>
+                            <constraint firstItem="fAf-Ph-yDd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BOr-hc-mLf"/>
+                            <constraint firstItem="s6o-Ui-h6U" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Mbf-uc-ec5"/>
+                            <constraint firstItem="s6o-Ui-h6U" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UPd-9T-dde"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="191" y="21"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="b4z-kK-qc3">
+            <objects>
+                <viewController id="nn0-Re-VGF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ByS-dl-zDu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="36" translatesAutoresizingMaskIntoConstraints="NO" id="Ccw-QW-tiB">
+                                <rect key="frame" x="20" y="78" width="374" height="818"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MWi-3s-Je5">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="277"/>
+                                        <color key="backgroundColor" red="0.50385216820000001" green="0.96620899439999997" blue="0.46763758439999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mLI-wV-Xqy">
+                                        <rect key="frame" x="0.0" y="313" width="374" height="505"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yGg-Ki-ASV">
+                                                <rect key="frame" x="164" y="27" width="46" height="30"/>
+                                                <state key="normal" title="Button">
+                                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.89813512559999997" green="0.25301585850000002" blue="0.1976082361" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstItem="yGg-Ki-ASV" firstAttribute="centerY" secondItem="mLI-wV-Xqy" secondAttribute="centerY" constant="-210.5" id="0Vb-6h-7Ah"/>
+                                            <constraint firstItem="yGg-Ki-ASV" firstAttribute="centerX" secondItem="mLI-wV-Xqy" secondAttribute="centerX" id="6Ij-bP-aP2"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Ccw-QW-tiB" firstAttribute="top" secondItem="HOr-Pf-5uF" secondAttribute="top" id="w4w-El-yi8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="HOr-Pf-5uF"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RjC-VJ-bD4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="900.00000000000011" y="20.758928571428569"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="K9P-Yh-yqK">
+            <objects>
+                <viewController id="fIV-dJ-C3C" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Q3Q-3N-Kja">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Jr-K6-cai">
+                                <rect key="frame" x="20" y="44" width="374" height="818"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Efn-Cl-y6V">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="1000"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ml8-XZ-QLP">
+                                                <rect key="frame" x="8" y="8" width="358" height="992"/>
+                                                <string key="text">Jelaskan apa saja kegiatan yang anda lakukan di bulan ini yang mendorong progres pekerjaan/proyek/bisnis anda!
+Jawaban : Kegiatan yang saya lakukan di bulan ini yang mendorong progres proyek saya adalah kegiatan Challenge Based Learning, yaitu kegiatan untuk menemukan konsep solusi berdasar kan masalah yang ditemukan berdasarkan ide besar kami. Pada proyek ini, yang disebut Mini Challenge 2, kami melakukan CBL secara berkelompok. Selain CBL, saya juga mengikuti training mengenai research, yaitu Secondary Data Research dan Qualitative Research. Training research ini sangat mempermudah kami dalam team untuk melakukan reseacrh mengenai ide kami serta menemukan masalah. Data-data research tersebut juga membantu kami membangun konsep solusi kami.
+Jelaskan upaya anda yang terkait dengan peningkatan kompetensi teknis yang anda miliki!
+Jawaban : Upaya saya dalam meningkatkan kompetensi teknis saya adalah melakukan brainstorming mengenai hal-hal teknis yang perlu saya lakukan atau code untuk beberapa solution konsep yang kami ajukan untuk Mini Challenge 2 ini. Terkait dengan proyek ini, saya juga belajar CoreML untuk dapat merealisasikan solution konsep yang kami pilih.
+(kompetensi teknis adalah kemampuan teknis sesuai dengan bidang ilmu jurusan anda)
+Jelaskan  perkembangan hasil pekerjaan/proyek/bisnis yang anda peroleh di bulan ini!
+Jawaban :  Perkembangan hasil proyek kami adalah kami telah menentukan Challenge kami, mendapatkan data research, serta menentukan solution konsep untuk Mini Challenge 2.
+Berikan rangkuman pekerjaan/proyek/bisnis yang telah anda selesaikan dan hubungannya dengan kompetensi teknis yang anda miliki dan teori pendukung yang anda ketahui!
+(kompetensi teknis adalah kemampuan teknis sesuai dengan bidang ilmu jurusan anda)
+*dijawab pada bulan terakhir enrichment program
+Jelaskan peningkatan kompetensi teknis yang anda alami!
+(kompetensi teknis adalah kemampuan teknis sesuai dengan bidang ilmu jurusan anda)
+*dijawab pada bulan terakhir enrichment program</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="Ml8-XZ-QLP" firstAttribute="top" secondItem="Efn-Cl-y6V" secondAttribute="top" constant="8" id="8FS-lH-KJu"/>
+                                            <constraint firstAttribute="trailing" secondItem="Ml8-XZ-QLP" secondAttribute="trailing" constant="8" id="LZs-mB-r2e"/>
+                                            <constraint firstItem="Ml8-XZ-QLP" firstAttribute="leading" secondItem="Efn-Cl-y6V" secondAttribute="leading" constant="8" id="Lch-2i-8Sz"/>
+                                            <constraint firstAttribute="height" constant="1000" id="brT-hp-9at"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Efn-Cl-y6V" secondAttribute="trailing" id="0yp-ZH-hPK"/>
+                                    <constraint firstAttribute="height" constant="1000" id="CIg-Sz-Szm"/>
+                                    <constraint firstItem="Efn-Cl-y6V" firstAttribute="centerY" secondItem="4Jr-K6-cai" secondAttribute="centerY" priority="250" id="Qxf-Dl-idd"/>
+                                    <constraint firstAttribute="bottom" secondItem="Efn-Cl-y6V" secondAttribute="bottom" id="XWV-sq-0n1"/>
+                                    <constraint firstItem="Efn-Cl-y6V" firstAttribute="leading" secondItem="4Jr-K6-cai" secondAttribute="leading" id="hCm-cF-WGF"/>
+                                    <constraint firstItem="Efn-Cl-y6V" firstAttribute="top" secondItem="4Jr-K6-cai" secondAttribute="top" id="nvm-0c-7vV"/>
+                                    <constraint firstItem="Efn-Cl-y6V" firstAttribute="centerX" secondItem="4Jr-K6-cai" secondAttribute="centerX" id="sGe-5I-N3r"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="4Jr-K6-cai" firstAttribute="top" secondItem="TqL-p7-dnb" secondAttribute="top" id="6Tp-AV-cvA"/>
+                            <constraint firstItem="4Jr-K6-cai" firstAttribute="centerY" secondItem="TqL-p7-dnb" secondAttribute="centerY" id="Zfg-PM-E7m"/>
+                            <constraint firstItem="TqL-p7-dnb" firstAttribute="trailing" secondItem="4Jr-K6-cai" secondAttribute="trailing" constant="20" id="exe-WE-6rW"/>
+                            <constraint firstItem="4Jr-K6-cai" firstAttribute="centerX" secondItem="TqL-p7-dnb" secondAttribute="centerX" id="qIa-b3-ogk"/>
+                            <constraint firstItem="4Jr-K6-cai" firstAttribute="leading" secondItem="TqL-p7-dnb" secondAttribute="leading" constant="20" id="s45-j5-MN6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="TqL-p7-dnb"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g0y-iA-bV6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1647.826086956522" y="27.455357142857142"/>
+        </scene>
+    </scenes>
+</document>
